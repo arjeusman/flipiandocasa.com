@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Flipiandocasa</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+			crossorigin="anonymous" />
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="d-flex flex-column flex-md-row align-items-center justify-content-center py-4 bg-dark gap-2">
+			<span class="text-white">How much is your home really worth?</span>
+			<a href="#" class="btn btn-success rounded-0">Find out for FREE</a>
+		</div>
+		<nav class="navbar sticky-top navbar-dark navbar-expand-lg py-2 py-md-4">
+			<div class="container">
+				<a class="navbar-brand" href="index.html"> Flipiandocasa </a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse px-3 py-3 py-md-0" id="navbar">
+					<div class="d-flex flex-column flex-md-row align-items-md-center justify-content-md-end gap-1 w-100">
+						<ul class="navbar-nav text-uppercase">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html">Communities</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Sell</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Buy</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Now Hiring</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">News</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About</a>
+							</li>
+						</ul>
+						<div>
+							<div><a href="#">Login</a> / <a href="#">Register</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<main class="container-fluid">
+			<div class="row align-items-center justify-content-center hero">
+				<div class="col-sm-12 col-md-10 col-lg-8 col-xl-6">
+					<div class="d-flex align-items-center flex-column">
+						<div class="header d-flex flex-column align-items-center gap-2 py-4">
+							<img src="./assets/hero-arms-full.webp" alt="" />
+							<h1 class="title">THE ARMS OUT</h1>
+							<h2 class="subtitle">REAL ESTATE COMPANY™</h2>
+						</div>
+						<fieldset class="d-flex flex-column flex-md-row flex-lg-row hero-tab w-100">
+							<input id="button1" type="radio" name="group" checked />
+							<label for="button1">
+								<span>GUARANTEED OFFER</span>
+							</label>
+							<input id="button2" type="radio" name="group" />
+							<label for="button2">
+								<span>SEARCH HOMES</span>
+							</label>
+							<input id="button3" type="radio" name="group" />
+							<label for="button3">
+								<span>FREE HOME EVALUATION</span>
+							</label>
+						</fieldset>
+						<form action="" class="p-3 col-12">
+							<div class="py-3 text-center">
+								<h1 class="fs-5">Get a Guaranteed Offer. Hassle-free and fast.*</h1>
+							</div>
+							<div class="row">
+								<div class="col-sm-12 col-md-6 py-2">
+									<label for="firstname">First name *</label>
+									<input id="firstname" type="text" class="form-control" placeholder="First Name" />
+								</div>
+								<div class="col-sm-12 col-md-6 py-2">
+									<label for="lastname">Last name *</label>
+									<input id="lastname" type="text" class="form-control" placeholder="Last Name" />
+								</div>
+								<div class="col-sm-12 col-md-6 py-2">
+									<label for="email">Email *</label>
+									<input id="email" type="text" class="form-control" placeholder="Email" />
+								</div>
+								<div class="col-sm-12 col-md-6 py-2">
+									<label for="mobile">Mobile Number *</label>
+									<input id="mobile" type="text" class="form-control" placeholder="Mobile Number" />
+								</div>
+								<div class="col-sm-12 col-md-6 py-2">
+									<label for="address">Address *</label>
+									<input id="address" type="text" class="form-control" placeholder="Address" />
+								</div>
+								<div class="col-sm-12 col-md-6 py-2">
+									<label for="city">City *</label>
+									<input id="city" type="text" class="form-control" placeholder="City" />
+								</div>
+								<div class="col-sm-12 col-md-6 py-2">
+									<label for="state">State *</label>
+									<input id="state" type="text" class="form-control" placeholder="State" />
+								</div>
+								<div class="col-sm-12 col-md-6 py-2">
+									<label for="zip">Zip Code *</label>
+									<input id="zip" type="text" class="form-control" placeholder="Zip Code" />
+								</div>
+							</div>
+							<div class="d-flex align-ites-center justify-content-center gap-2 py-2 mt-2">
+								<input id="agree" type="checkbox" name="group" />
+								<label for="agree">
+									<span>Yes, I agree to receive text messages & phone calls*</span>
+								</label>
+							</div>
+							<div class="d-flex align-items-center justify-content-center mt-4">
+								<button class="btn btn-danger bg-gradient rounded-0">SEND</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<section class="row grid-offer">
+				<div class="col-sm-12 col-lg-6 offer order-2 order-md-1">
+					<div class="header">
+						<span class="number">01</span>
+						<span class="line"></span>
+						<span class="text">Fast & Simple</span>
+					</div>
+					<div class="content">
+						<h1 class="title">GUARANTEED OFFER</h1>
+						<ul class="list">
+							<li>No Staging.</li>
+							<li>No Cleaning.</li>
+							<li>No Showings.</li>
+							<li>No Open Houses.</li>
+						</ul>
+						<span class="line"></span>
+						<p class="my-4">
+							Our Guaranteed Offer Program is the fastest, most profitable, and hassle-free way to sell your home. The program allows you to choose your closing date and stay in your home for up to 90
+							days after closing, avoiding the stress of daily showings.
+						</p>
+						<a href="#">Let's Get Started +</a>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-6 image order-1 order-md-2">
+					<img src="./assets/billboard.png" alt="" />
+				</div>
+			</section>
+			<section class="row grid-offer">
+				<div class="col-sm-12 col-lg-6 image p-0 m-0">
+					<img src="./assets/guaranteed-offer-2.webp" alt="" />
+				</div>
+				<div class="col-sm-12 col-lg-6 offer">
+					<div class="content">
+						<h1 class="title text-uppercase">Easy. Fast.</h1>
+						<span class="line"></span>
+						<p class="my-4">The program allows home sellers like you to avoid the traditional market and select your closing date as soon as three weeks after you approve the offer.</p>
+						<p>Our Guaranteed Offer Program offers the speed and convenience people have always wanted when selling their homes. Most importantly, it puts YOU in control!</p>
+						<a href="#">Let's Get Started +</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+			integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+			crossorigin="anonymous"></script>
+	</body>
+</html>
